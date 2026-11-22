@@ -17,7 +17,7 @@
   align-items: center;
   color: white;
   background-color: rgb(39, 85, 103);
-  height: 50px;
+  height: o50px;
   padding: 20px;
 }
 
@@ -25,7 +25,8 @@
   z-index: 1;
   display: block;
   position: relative;
-  left: 1050px;
+  bottom: 0;
+  right: 0;
   height: 50px;
   width: 50px;
   border-radius: 5px;
@@ -33,6 +34,63 @@
   background-color: rgb(39, 85, 103);
 }
 
-/*.fa .fa-bars {
-  width: 50px;
-}*/
+#menu-item {
+  cursor: pointer;
+}
+#task-page {
+  background-color: rgb(141, 166, 202);
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*overflow: hidden;*/
+}
+#task-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.input-container {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 500px;
+  box-sizing: border-box;
+  background-color: white;
+  margin: 10px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+.input-container hr {
+  margin: 20px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+.menu-item {
+  display: block;
+}
+
+i {
+  color: white;
+}
+
+#task {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  height: 50px;
+}
+
+.tasks {
+  background-color: yellowgreen;
+  display: inline-block;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
